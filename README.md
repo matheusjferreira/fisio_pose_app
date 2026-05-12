@@ -57,7 +57,7 @@ Exercício de Prancha incorreto
 
 Vídeo teste de uso do app
 
-https://github.com/user-attachments/assets/6753b80b-efe9-48f6-88b8-93797848e845
+https://github.com/user-attachments/assets/b660443d-aa2c-46f7-86fa-d22f122feff5
 
 ---
 
