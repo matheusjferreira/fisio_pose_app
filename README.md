@@ -39,7 +39,29 @@ Relatórios de movimento
 
 ---
 
-# Exercícios já suportados
+## Evidências de uso da aplicação
+
+Resultado Final aplicação pronta:
+
+Home Page
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ce9d752a-898d-47f5-a902-a2a5e7e9fc80" />
+
+Exercício de Prancha correto
+
+<img width="1917" height="1080" alt="image" src="https://github.com/user-attachments/assets/7163e3e5-4171-45c6-8efd-16d526c49799" />
+
+Exercício de Prancha incorreto
+
+<img width="1913" height="1080" alt="image" src="https://github.com/user-attachments/assets/4ad0345a-634a-4e00-b160-75c7a35d1c31" />
+
+Vídeo teste de uso do app
+
+https://github.com/user-attachments/assets/6753b80b-efe9-48f6-88b8-93797848e845
+
+---
+
+## Exercícios já suportados
 
 Com a infraestrutura atual de detecção de pose e análise de landmarks já implementada, o aplicativo já possui base técnica para monitoramento de exercícios fundamentais de fisioterapia e fitness.
 
