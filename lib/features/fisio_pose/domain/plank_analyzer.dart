@@ -19,12 +19,32 @@ class PlankAnalyzer {
 
     final bodyAngle = _angle(shoulder, hip, ankle);
 
-    if (bodyAngle > 170) {
+    // altura média entre ombro e tornozelo
+    final midLineY = (shoulder[1] + ankle[1]) / 2;
+
+    final hipY = hip[1];
+
+    // diferença vertical do quadril
+    final hipOffset = hipY - midLineY;
+
+    // margem de tolerância
+    const tolerance = 0.03;
+
+    // Corpo alinhado
+    if (bodyAngle > 170 && hipOffset.abs() < tolerance) {
       return "Prancha perfeita 🔥";
-    } else if (bodyAngle > 150) {
-      return "Suba um pouco o quadril ⚠️";
-    } else {
-      return "Quadril muito baixo ❌";
     }
+
+    // Quadril baixo (afundando)
+    if (hipOffset > tolerance) {
+      return "Suba o quadril ⚠️";
+    }
+
+    // Quadril alto (empinado)
+    if (hipOffset < -tolerance) {
+      return "Desça o quadril ❌";
+    }
+
+    return "Alinhe o corpo 👍";
   }
 }
